@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thao tác với các tag liên quan đến tạo FORM</title>
+
+    <style>
+        .form {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .submit {
+            margin: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tạo form dùng HTML5 (các tag < input>)</h1>
+    <div class="form">
+        Name: <br>
+        <input type="text" name="name" required> <br><br>
+        Telephone Number: <br>
+        <input type="text" name="phone" required> <br><br>
+        <!-- Chưa giới hạn được số đt gồm tối đa 10 số và tối thiểu ?
+        bắc đầu bằng số 0 -->
+        Email: <br>
+        <input type="text" name="email" required> <br><br>
+        Favorite Color: <br>
+        <input type="color" name="color" value="#0000FF"><br><br>
+        Date of Birth: <br>
+        <input type="date" name="date" value="24/04/2002" required> <br><br>
+        <!-- Cách tạo ngày sinh ra mà có sẵn biến, có sẵn thể tăng 
+            hoặc giảm và có thể chọn chưa làm đc nè hihi -->
+        <input class="submit" type="Submit">
+    </div>
+</body>
+
+</html>
